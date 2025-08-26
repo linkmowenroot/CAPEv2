@@ -1,0 +1,900 @@
+{
+  "pcap_sha256": "30372e01650ad5326eaa8c01b341ee30a9112ba7f00f5c6fab3959c1167a1056",
+  "analysis_timestamp": "2025-08-18T19:36:41.361815",
+  "analyzer_version": "2.0",
+  "hosts": [
+    {
+      "ip": "8.8.8.8",
+      "hostname": "dns.google",
+      "country_name": "united states"
+    },
+    {
+      "ip": "36.0.0.0",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "162.247.155.210",
+      "hostname": "kwmrc.celueemeny.com",
+      "country_name": "united states"
+    },
+    {
+      "ip": "36.0.0.1",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.2",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.3",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.4",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.5",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.6",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.7",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.8",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.9",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.10",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.11",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.12",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.13",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.14",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.15",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.16",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.17",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.18",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.19",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.20",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.21",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.22",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.23",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.24",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.25",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.26",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.27",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.28",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.29",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.30",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.31",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.32",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.33",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.34",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.35",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.36",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.37",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.38",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.39",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.40",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.41",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.42",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.43",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.44",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.45",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.46",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.47",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.48",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.49",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.50",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.51",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.52",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.53",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.54",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.55",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.56",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.57",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.58",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.59",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.60",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.61",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "36.0.0.62",
+      "hostname": "",
+      "country_name": "china"
+    },
+    {
+      "ip": "151.101.2.49",
+      "hostname": "",
+      "country_name": "united states"
+    }
+  ],
+  "domains": [
+    "daisy.ubuntu.com",
+    "cdn.fwupd.org",
+    "botnet.world",
+    "dualstack.p2.shared.global.fastly.net",
+    "api.ipify.org",
+    "extensions.gnome.org",
+    "odrs.gnome.org"
+  ],
+  "tcp": [
+    {
+      "src": "192.168.56.100",
+      "sport": 35486,
+      "dst": "172.29.0.7",
+      "dport": 443,
+      "offset": 3996,
+      "time": 2.0258820056915283
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 46100,
+      "dst": "36.0.0.3",
+      "dport": 23,
+      "offset": 1124034,
+      "time": 3.431436061859131
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 41412,
+      "dst": "36.0.0.4",
+      "dport": 23,
+      "offset": 1124465,
+      "time": 3.4782299995422363
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 56490,
+      "dst": "36.0.0.5",
+      "dport": 23,
+      "offset": 1124634,
+      "time": 3.500211000442505
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 59822,
+      "dst": "36.0.0.6",
+      "dport": 23,
+      "offset": 1125065,
+      "time": 3.5987679958343506
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 58820,
+      "dst": "36.0.0.7",
+      "dport": 23,
+      "offset": 1126172,
+      "time": 3.821398973464966
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 55582,
+      "dst": "36.0.0.8",
+      "dport": 23,
+      "offset": 1126603,
+      "time": 4.068375110626221
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 44860,
+      "dst": "36.0.0.9",
+      "dport": 23,
+      "offset": 1126690,
+      "time": 4.068424940109253
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 52962,
+      "dst": "36.0.0.10",
+      "dport": 23,
+      "offset": 1127372,
+      "time": 4.198206901550293
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 40232,
+      "dst": "36.0.0.11",
+      "dport": 23,
+      "offset": 1129189,
+      "time": 4.411240100860596
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 51110,
+      "dst": "36.0.0.12",
+      "dport": 23,
+      "offset": 1129276,
+      "time": 4.411310911178589
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 36206,
+      "dst": "36.0.0.13",
+      "dport": 23,
+      "offset": 1129527,
+      "time": 4.4116010665893555
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 38832,
+      "dst": "172.29.0.10",
+      "dport": 80,
+      "offset": 1130343,
+      "time": 4.414653062820435
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 43280,
+      "dst": "36.0.0.14",
+      "dport": 23,
+      "offset": 1130827,
+      "time": 4.583975076675415
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 34218,
+      "dst": "36.0.0.15",
+      "dport": 23,
+      "offset": 1131258,
+      "time": 4.597429037094116
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 36500,
+      "dst": "36.0.0.16",
+      "dport": 23,
+      "offset": 1132458,
+      "time": 4.750562906265259
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 50540,
+      "dst": "36.0.0.17",
+      "dport": 23,
+      "offset": 1133489,
+      "time": 4.842878103256226
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 41784,
+      "dst": "36.0.0.18",
+      "dport": 23,
+      "offset": 1134182,
+      "time": 4.908740997314453
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 47560,
+      "dst": "36.0.0.19",
+      "dport": 23,
+      "offset": 1134782,
+      "time": 4.9742350578308105
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 38790,
+      "dst": "162.247.155.210",
+      "dport": 111,
+      "offset": 1136218,
+      "time": 5.061189889907837
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 35040,
+      "dst": "36.0.0.20",
+      "dport": 23,
+      "offset": 1136490,
+      "time": 5.093950033187866
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 51892,
+      "dst": "36.0.0.21",
+      "dport": 23,
+      "offset": 1137259,
+      "time": 5.228457927703857
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 37512,
+      "dst": "36.0.0.22",
+      "dport": 23,
+      "offset": 1137346,
+      "time": 5.228496074676514
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 43076,
+      "dst": "36.0.0.23",
+      "dport": 23,
+      "offset": 1137597,
+      "time": 5.22888708114624
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 35878,
+      "dst": "36.0.0.24",
+      "dport": 23,
+      "offset": 1138197,
+      "time": 5.330917119979858
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 34858,
+      "dst": "36.0.0.25",
+      "dport": 23,
+      "offset": 1138874,
+      "time": 5.3947460651397705
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 34624,
+      "dst": "36.0.0.26",
+      "dport": 23,
+      "offset": 1139812,
+      "time": 5.528204917907715
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 52390,
+      "dst": "36.0.0.27",
+      "dport": 23,
+      "offset": 1139981,
+      "time": 5.5285890102386475
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 39852,
+      "dst": "172.29.0.11",
+      "dport": 443,
+      "offset": 1141468,
+      "time": 5.554979085922241
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 37854,
+      "dst": "36.0.0.28",
+      "dport": 23,
+      "offset": 1142290,
+      "time": 5.611457109451294
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 56184,
+      "dst": "36.0.0.29",
+      "dport": 23,
+      "offset": 1144014,
+      "time": 5.837069988250732
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 34708,
+      "dst": "36.0.0.30",
+      "dport": 23,
+      "offset": 1145662,
+      "time": 6.107563018798828
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 48988,
+      "dst": "36.0.0.31",
+      "dport": 23,
+      "offset": 1146617,
+      "time": 6.233093976974487
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 57368,
+      "dst": "36.0.0.32",
+      "dport": 23,
+      "offset": 1155345,
+      "time": 6.446039915084839
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 54556,
+      "dst": "36.0.0.0",
+      "dport": 23,
+      "offset": 1155432,
+      "time": 6.446106910705566
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 34756,
+      "dst": "36.0.0.1",
+      "dport": 23,
+      "offset": 1155519,
+      "time": 6.446115970611572
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 36712,
+      "dst": "36.0.0.2",
+      "dport": 23,
+      "offset": 1155606,
+      "time": 6.446120977401733
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 53646,
+      "dst": "172.29.0.4",
+      "dport": 443,
+      "offset": 1392460,
+      "time": 7.916263103485107
+    },
+    {
+      "src": "151.101.2.49",
+      "sport": 443,
+      "dst": "192.168.56.100",
+      "dport": 36784,
+      "offset": 3042385,
+      "time": 15.737836122512817
+    }
+  ],
+  "udp": [
+    {
+      "src": "192.168.56.100",
+      "sport": 56542,
+      "dst": "8.8.8.8",
+      "dport": 53,
+      "offset": 94,
+      "time": 0.9019210338592529
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 50553,
+      "dst": "8.8.8.8",
+      "dport": 53,
+      "offset": 197,
+      "time": 0.902022123336792
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 41420,
+      "dst": "8.8.8.8",
+      "dport": 53,
+      "offset": 599,
+      "time": 1.0175540447235107
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 34749,
+      "dst": "8.8.8.8",
+      "dport": 53,
+      "offset": 699,
+      "time": 1.0176451206207275
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 39111,
+      "dst": "8.8.8.8",
+      "dport": 53,
+      "offset": 1062,
+      "time": 1.1030070781707764
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 50201,
+      "dst": "8.8.8.8",
+      "dport": 53,
+      "offset": 3208,
+      "time": 2.023442029953003
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 33085,
+      "dst": "8.8.8.8",
+      "dport": 53,
+      "offset": 1129865,
+      "time": 4.4128289222717285
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 49312,
+      "dst": "8.8.8.8",
+      "dport": 53,
+      "offset": 1140581,
+      "time": 5.551992893218994
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 54637,
+      "dst": "8.8.8.8",
+      "dport": 53,
+      "offset": 1140811,
+      "time": 5.552777051925659
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 56910,
+      "dst": "8.8.8.8",
+      "dport": 53,
+      "offset": 1391822,
+      "time": 7.913691997528076
+    },
+    {
+      "src": "192.168.56.100",
+      "sport": 49627,
+      "dst": "8.8.8.8",
+      "dport": 53,
+      "offset": 1392018,
+      "time": 7.9142820835113525
+    }
+  ],
+  "icmp": [],
+  "http": [
+    {
+      "src": "192.168.56.100",
+      "dst": "172.29.0.10",
+      "dport": 80,
+      "sport": 38832,
+      "method": "GET",
+      "host": "api.ipify.org",
+      "uri": "/",
+      "version": "1.1",
+      "user_agent": "",
+      "timestamp": 1755516980.96212,
+      "data": "GET / HTTP/1.1\r\nHost: api.ipify.org\r\nConnection: close\r\n\r\n"
+    }
+  ],
+  "dns": [
+    {
+      "request": "daisy.ubuntu.com",
+      "type": "A",
+      "timestamp": 1755516977.490925,
+      "answers": [
+        {
+          "type": "A",
+          "data": "162.213.35.24"
+        },
+        {
+          "type": "A",
+          "data": "162.213.35.25"
+        }
+      ]
+    },
+    {
+      "request": "daisy.ubuntu.com",
+      "type": "AAAA",
+      "timestamp": 1755516977.49095,
+      "answers": []
+    },
+    {
+      "request": "cdn.fwupd.org",
+      "type": "A",
+      "timestamp": 1755516977.565021,
+      "answers": []
+    },
+    {
+      "request": "cdn.fwupd.org",
+      "type": "AAAA",
+      "timestamp": 1755516977.602569,
+      "answers": [
+        {
+          "type": "CNAME",
+          "data": "dualstack.p2.shared.global.fastly.net"
+        }
+      ]
+    },
+    {
+      "request": "botnet.world",
+      "type": "A",
+      "timestamp": 1755516977.68392,
+      "answers": [
+        {
+          "type": "A",
+          "data": "162.247.155.210"
+        }
+      ]
+    },
+    {
+      "request": "dualstack.p2.shared.global.fastly.net",
+      "type": "A",
+      "timestamp": 1755516978.571281,
+      "answers": [
+        {
+          "type": "A",
+          "data": "172.29.0.7"
+        }
+      ]
+    },
+    {
+      "request": "api.ipify.org",
+      "type": "A",
+      "timestamp": 1755516980.960751,
+      "answers": [
+        {
+          "type": "A",
+          "data": "172.29.0.10"
+        }
+      ]
+    },
+    {
+      "request": "extensions.gnome.org",
+      "type": "A",
+      "timestamp": 1755516982.099747,
+      "answers": [
+        {
+          "type": "A",
+          "data": "172.29.0.11"
+        }
+      ]
+    },
+    {
+      "request": "extensions.gnome.org",
+      "type": "AAAA",
+      "timestamp": 1755516982.101065,
+      "answers": []
+    },
+    {
+      "request": "odrs.gnome.org",
+      "type": "A",
+      "timestamp": 1755516984.461461,
+      "answers": [
+        {
+          "type": "A",
+          "data": "172.29.0.4"
+        }
+      ]
+    },
+    {
+      "request": "odrs.gnome.org",
+      "type": "AAAA",
+      "timestamp": 1755516984.461907,
+      "answers": []
+    }
+  ],
+  "irc": [],
+  "smtp": [],
+  "dead_hosts": [],
+  "malware_analysis": {
+    "threat_score": {
+      "raw_score": 0,
+      "normalized_score": 0,
+      "risk_level": "MINIMAL",
+      "detection_count": 0
+    },
+    "malware_families": [],
+    "detections": [],
+    "detections_by_type": {},
+    "detection_summary": {
+      "total_detections": 0,
+      "critical_detections": 0,
+      "high_detections": 0,
+      "medium_detections": 0,
+      "low_detections": 0
+    }
+  },
+  "threat_intelligence": {
+    "malicious_domains_contacted": [],
+    "malicious_ips_contacted": [],
+    "suspicious_activities": [],
+    "iocs": []
+  }
+}
