@@ -1,0 +1,12 @@
+# Core requirements (minimal)
+# No external dependencies for basic offline operation
+
+# Optional requirements for enhanced functionality
+# Uncomment the lines below if you want to use online MITRE data
+
+# pyattck>=7.0.0  # For online MITRE ATT&CK data
+# requests>=2.25.0  # Required by pyattck
+
+# Development and testing
+# pytest>=6.0.0  # For running tests
+# black>=21.0.0  # For code formatting

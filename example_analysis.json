@@ -1,0 +1,88 @@
+{
+  "processes": [
+    {
+      "process_name": "powershell.exe",
+      "command_line": "powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -File malware.ps1",
+      "pid": 1234
+    },
+    {
+      "process_name": "vssadmin.exe",
+      "command_line": "vssadmin.exe delete shadows /all /quiet",
+      "pid": 5678
+    },
+    {
+      "process_name": "bcdedit.exe",
+      "command_line": "bcdedit.exe /set bootstatuspolicy ignoreallfailures",
+      "pid": 9012
+    },
+    {
+      "process_name": "xmrig.exe",
+      "command_line": "xmrig.exe -o pool.supportxmr.com:443 -u wallet_address",
+      "pid": 3456
+    }
+  ],
+  "network": {
+    "http": [
+      {
+        "uri": "/download/payload.exe",
+        "host": "malicious-domain.com",
+        "method": "GET"
+      },
+      {
+        "uri": "/api/tasks",
+        "host": "c2-server.evil",
+        "method": "POST"
+      },
+      {
+        "uri": "/libraries/evil.dll",
+        "host": "malware-repo.net",
+        "method": "GET"
+      }
+    ],
+    "dns": [
+      {
+        "request": "malicious-domain.com",
+        "type": "A"
+      },
+      {
+        "request": "pool.supportxmr.com",
+        "type": "A"
+      }
+    ],
+    "tcp": [
+      {
+        "src": "192.168.1.100",
+        "dst": "pool.supportxmr.com:443",
+        "bytes": 1048576
+      }
+    ]
+  },
+  "file_operations": [
+    {
+      "operation": "create",
+      "filename": "C:\\temp\\ransomware.exe"
+    },
+    {
+      "operation": "write",
+      "filename": "C:\\Users\\user\\Desktop\\README_DECRYPT.txt"
+    },
+    {
+      "operation": "delete",
+      "filename": "C:\\Users\\user\\Documents\\important.docx"
+    }
+  ],
+  "registry_operations": [
+    {
+      "operation": "set",
+      "key": "HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+      "value": "SecurityUpdate",
+      "data": "C:\\temp\\ransomware.exe"
+    },
+    {
+      "operation": "set",
+      "key": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\EventLog\\Security",
+      "value": "MaxSize",
+      "data": "0"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "mitre_attack_matrix": {
+    "impact": [
+      {
+        "technique_id": "T1496",
+        "technique_name": "Resource Hijacking",
+        "description": "Adversaries may leverage the resources of co-opted systems in order to solve resource intensive problems which may impact system and/or hosted service availability.",
+        "signatures": [
+          "cryptocurrency_mining"
+        ]
+      },
+      {
+        "technique_id": "T1486",
+        "technique_name": "Data Encrypted for Impact",
+        "description": "Adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources.",
+        "signatures": [
+          "ransomware_indicators"
+        ]
+      }
+    ],
+    "discovery": [
+      {
+        "technique_id": "T1083",
+        "technique_name": "File and Directory Discovery",
+        "description": "Adversaries may enumerate files and directories or may search in specific locations of a host or network share for certain information within a file system.",
+        "signatures": [
+          "ransomware_indicators"
+        ]
+      }
+    ],
+    "execution": [
+      {
+        "technique_id": "T1059.001",
+        "technique_name": "Command and Scripting Interpreter: PowerShell",
+        "description": "Adversaries may abuse PowerShell commands and scripts for execution.",
+        "signatures": [
+          "powershell_execution"
+        ]
+      },
+      {
+        "technique_id": "T1053.005",
+        "technique_name": "Scheduled Task/Job: Scheduled Task",
+        "description": "Adversaries may abuse the Windows Task Scheduler to perform task scheduling for initial or recurring execution of malicious code.",
+        "signatures": [
+          "advanced_persistence"
+        ]
+      }
+    ],
+    "persistence": [
+      {
+        "technique_id": "T1053.005",
+        "technique_name": "Scheduled Task/Job: Scheduled Task",
+        "description": "Adversaries may abuse the Windows Task Scheduler to perform task scheduling for initial or recurring execution of malicious code.",
+        "signatures": [
+          "advanced_persistence"
+        ]
+      },
+      {
+        "technique_id": "T1574.001",
+        "technique_name": "Hijack Execution Flow: DLL Search Order Hijacking",
+        "description": "Adversaries may execute their own malicious payloads by hijacking the search order used to load DLLs.",
+        "signatures": [
+          "advanced_persistence"
+        ]
+      }
+    ],
+    "privilege-escalation": [
+      {
+        "technique_id": "T1053.005",
+        "technique_name": "Scheduled Task/Job: Scheduled Task",
+        "description": "Adversaries may abuse the Windows Task Scheduler to perform task scheduling for initial or recurring execution of malicious code.",
+        "signatures": [
+          "advanced_persistence"
+        ]
+      },
+      {
+        "technique_id": "T1574.001",
+        "technique_name": "Hijack Execution Flow: DLL Search Order Hijacking",
+        "description": "Adversaries may execute their own malicious payloads by hijacking the search order used to load DLLs.",
+        "signatures": [
+          "advanced_persistence"
+        ]
+      }
+    ],
+    "defense-evasion": [
+      {
+        "technique_id": "T1574.001",
+        "technique_name": "Hijack Execution Flow: DLL Search Order Hijacking",
+        "description": "Adversaries may execute their own malicious payloads by hijacking the search order used to load DLLs.",
+        "signatures": [
+          "advanced_persistence"
+        ]
+      }
+    ],
+    "command-and-control": [
+      {
+        "technique_id": "T1071.001",
+        "technique_name": "Application Layer Protocol: Web Protocols",
+        "description": "Adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering.",
+        "signatures": [
+          "suspicious_http_request"
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "version": "1.0",
+    "generated_by": "MITRE ATT&CK Standalone Integration",
+    "data_source": "offline",
+    "technique_count": 11,
+    "tactic_count": 7,
+    "tactics": [
+      "impact",
+      "discovery",
+      "execution",
+      "persistence",
+      "privilege-escalation",
+      "defense-evasion",
+      "command-and-control"
+    ]
+  }
+}
